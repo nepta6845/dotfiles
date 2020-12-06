@@ -26,7 +26,7 @@ export DENO_INSTALL="/home/neptali/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 #SCALA
 export PATH="$PATH:$HOME/scala/sbt/bin"
-export SCALA_HOME="$HOME/scala/scala/scala-2.13.3"
+export SCALA_HOME="$HOME/scala/scala/scala"
 export PATH="$PATH:$SCALA_HOME/bin"
 #NODE
 export NODEJS_HOME="$HOME/node/node-v12.18.1-linux-x64"
@@ -48,3 +48,5 @@ export PASSWORD="242728"
 
 # SELENIUM 
 export PATH="$HOME/selenium:$PATH"
+# rust analyzer
+export PATH="$HOME/rust-analyzer:$PATH"

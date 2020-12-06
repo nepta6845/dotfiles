@@ -56,5 +56,17 @@ call plug#begin('~/.vim/plugged')
   Plug 'liuchengxu/eleline.vim'
   "ycm complete
   Plug 'ycm-core/YouCompleteMe'
+  "HTML
+  Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+  Plug 'honza/vim-snippets'
+  Plug 'SirVer/ultisnips'
+  Plug 'alvan/vim-closetag'
+
+  "TMUX
+  Plug 'tmux-plugins/vim-tmux'
+  Plug 'christoomey/vim-tmux-navigator'
+
+  "Format
+  Plug 'Chiel92/vim-autoformat'
 call plug#end()
 

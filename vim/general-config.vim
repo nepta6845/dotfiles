@@ -54,7 +54,8 @@ let python_highlight_all=1
 
 
 "Icons settings
-set guifont=3270MediumNerdFontMono\ Medium\ Font\ 15
+"set guifont=3270MediumNerdFontMono\ Medium\ Font\ 15
+set guifont=CousineNerdFontMono\ Medium\ Font\ 15
 let g:airline_powerline_fonts = 1
 
 "" Debogging 🐞🐞🐞🐞
@@ -82,3 +83,6 @@ let g:ycm_auto_trigger = 0
 
 "CSS
 autocmd FileType scss setl iskeyword+=@-@
+"Tmux
+let g:tmux_navigator_no_mappings = 1
+
